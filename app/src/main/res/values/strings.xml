@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Car Shop</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string-array name="conditions">
+        <item>New</item>
+        <item>Used</item>
+    </string-array>
+    <string-array name="categories">
+        <item>Electric</item>
+        <item>Truck</item>
+        <item>Commercial</item>
+    </string-array>
+</resources>

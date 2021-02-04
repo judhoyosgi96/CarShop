@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Model"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/edit_seats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_model"
+        android:ems="10"
+        android:hint="Seats"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/edit_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_seats"
+        android:ems="10"
+        android:hint="Released Date"
+        android:inputType="number" />
+    <Spinner
+        android:id="@+id/edit_category"
+        android:layout_below="@id/edit_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category"
+        android:entries="@array/categories"
+        />
+    <Spinner
+        android:id="@+id/edit_condition"
+        android:layout_below="@id/edit_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Condition"
+        android:layout_marginTop="5dp"
+        android:entries="@array/conditions"
+        />
+    <EditText
+        android:id="@+id/edit_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_condition"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/dialog_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_price"
+        android:text="APPLY" />
+
+
+
+
+</RelativeLayout>
